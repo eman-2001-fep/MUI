@@ -1,0 +1,16 @@
+/* src/index.css or src/App.css */
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+  background-color: #1B143F;
+  color: white;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Optional: Add font if needed */
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
