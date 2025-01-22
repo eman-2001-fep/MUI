@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Button, Typography } from '@mui/material';
+import spacecraft from '../images/spacecraft.png';
+
 export default function Hero() {
   return (
     <Box
@@ -109,19 +111,19 @@ export default function Hero() {
         }}
       />
 
-      {/* Rocket Image
+      {/* Rocket Image */}
       <img
-        src="images/spacecraft.png"
+        src={spacecraft}
         alt="Rocket Launch"
         style={{
           position: 'absolute',
-          top: '-70px', // Adjust this to place it above the dashed square
+          top: '50%', 
           left: '50%',
           transform: 'translateX(-50%)',
-          width: '300px',
-          zIndex: 10, // Ensure it appears above the dashed square
+          width: '400px',
+          zIndex: 15, 
         }}
-      /> */}
+      />
     </Box>
   );
 }
