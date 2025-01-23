@@ -10,7 +10,7 @@ export default function Hero() {
         width: '90%',
         maxWidth: '1050px',
         height: '450px',
-        margin: '8rem auto 0',
+        margin: '4rem auto 0',
         borderRadius: '0 0 100px 0',
         border: '2px dashed rgba(255, 255, 255, 0.6)',
         backgroundColor: '#1B143F',
@@ -75,7 +75,7 @@ export default function Hero() {
             color: 'white',
             padding: '10px 24px',
             border: '2px solid white',
-            borderRadius: '30px 0px 30px 0px',
+            borderRadius: '0px 30px 0px 30px',
             '&:hover': { backgroundColor: '#E2E2E2' },
           }}
         >
@@ -87,7 +87,7 @@ export default function Hero() {
             color: 'white',
             padding: '10px 24px',
             border: '2px solid white',
-            borderRadius: '30px 0px 30px 0px',
+            borderRadius: '0px 30px 0px 30px',
             '&:hover': { backgroundColor: '#E2E2E2' },
           }}
         >
