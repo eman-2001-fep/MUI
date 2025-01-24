@@ -5,6 +5,7 @@ import LoomLogo from '../images/loom.png';
 import GitLapLogo from '../images/GitLap.png';
 import LivechatLogo from '../images/Livechat.png';
 import MondayLogo from '../images/Monday.png';
+// eslint-disable-next-line jsx-a11y/alt-text
 
 export default function Partners() {
   return (

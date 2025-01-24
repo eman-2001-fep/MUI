@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c64cd66.css",
+    "main.js": "/static/js/main.1b142cb8.js",
+    "static/js/488.26bbdb82.chunk.js": "/static/js/488.26bbdb82.chunk.js",
+    "static/media/spacecraft.png": "/static/media/spacecraft.89ac482f832d73a6879d.png",
+    "static/media/news_card1.png": "/static/media/news_card1.2a52936c2d09594d5747.png",
+    "static/media/card_1.png": "/static/media/card_1.a1b53725ef978ba7358f.png",
+    "static/media/card_5.png": "/static/media/card_5.9649674eabd11c8c57da.png",
+    "static/media/card_3.png": "/static/media/card_3.b9fd914a49debe0caced.png",
+    "static/media/gold-silver-bronze-trophy-cup-floating-podium-purple-background-champion-sport-first-second-third-places-winning-prizes-champions-celebration-concept-3d-render-illustration-removebg-preview 1.png": "/static/media/gold-silver-bronze-trophy-cup-floating-podium-purple-background-champion-sport-first-second-third-places-winning-prizes-champions-celebration-concept-3d-render-illustration-removebg-preview 1.d7504c17e7e9400ce818.png",
+    "static/media/card_6.png": "/static/media/card_6.3ee808c363f3b017ef5b.png",
+    "static/media/news_card2.png": "/static/media/news_card2.99f2ec1fecad567412c1.png",
+    "static/media/rocket-launch-laptop-flying-rocket-icon-business-startup-project-concept 2.png": "/static/media/rocket-launch-laptop-flying-rocket-icon-business-startup-project-concept 2.d49a4e9bcd0921dafb70.png",
+    "static/media/card_2.png": "/static/media/card_2.9baeae016331c0f6847b.png",
+    "static/media/news_card3.png": "/static/media/news_card3.d8335a9f2f36676dfd43.png",
+    "static/media/card_4.png": "/static/media/card_4.b4eea05d3f843767e5ad.png",
+    "static/media/profile_3.png": "/static/media/profile_3.f4c4516582e8a9d859da.png",
+    "static/media/profile_5.png": "/static/media/profile_5.c6cef411638b22f7a050.png",
+    "static/media/profile_4.png": "/static/media/profile_4.eea6d5e55fb5813d841e.png",
+    "static/media/profile_1.png": "/static/media/profile_1.d095fa5d24f51ee1ff93.png",
+    "static/media/profile_2.png": "/static/media/profile_2.3a394a12dfd4c9536fae.png",
+    "static/media/Profile_icon.svg": "/static/media/Profile_icon.3853cb67d5036d21effbc41dee38535e.svg",
+    "static/media/Cart_icon.svg": "/static/media/Cart_icon.6ad5508d6102c69a0e6747812cc1be7d.svg",
+    "static/media/Search_icon.svg": "/static/media/Search_icon.5d0b0f2b3040980196f5be8e8730e073.svg",
+    "index.html": "/index.html",
+    "main.5c64cd66.css.map": "/static/css/main.5c64cd66.css.map",
+    "main.1b142cb8.js.map": "/static/js/main.1b142cb8.js.map",
+    "488.26bbdb82.chunk.js.map": "/static/js/488.26bbdb82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c64cd66.css",
+    "static/js/main.1b142cb8.js"
+  ]
+}

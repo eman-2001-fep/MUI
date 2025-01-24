@@ -9,7 +9,7 @@ export default function Footer() {
       component="footer"
       sx={{
         backgroundColor: 'rgba(64, 58, 101, 0.5)',
-        px: 3,
+        px: 2,
         py: 6,
       }}
     >
