@@ -77,8 +77,8 @@ export default function FeaturedCourses() {
       </Typography>
       <Grid container spacing={3} justifyContent="center">
         {courses.map((course, index) => (
-          <Grid item xs={12} sm={4}  key={index}>
-            <Card
+          <Grid item xs={12} sm={6} md={4} lg={4} key={index}>
+          <Card
               sx={{
                 bgcolor: '#2D2752',
                 color: 'white',
