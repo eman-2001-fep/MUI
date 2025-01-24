@@ -6,6 +6,7 @@ import FeaturedCourses from './components/FeaturedCourses';
 import Categories from './components/Categories'; 
 import Testimonial from './components/Testimonial'; 
 import News from './components/News'; 
+import JoinUs from './components/JoinUs'; 
 
 
 import './index.css';  // Import global styles here
@@ -20,6 +21,7 @@ function App() {
       <Categories /> 
       <Testimonial/>
       <News/>
+      <JoinUs/>
       </div>
   );
 }
