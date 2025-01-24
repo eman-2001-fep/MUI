@@ -23,11 +23,10 @@ export default function Header() {
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center',
-          flexDirection: { xs: 'column', sm: 'row' }, // Stack vertically on small screens
-          gap: 2, // Add gap between sections when stacked vertically
+          flexDirection: { xs: 'column', sm: 'row' }, 
+          gap: 2, 
         }}
       >
-        {/* Logo or title */}
         <Typography
           variant="h6"
           sx={{
@@ -38,12 +37,11 @@ export default function Header() {
           Education<span style={{ fontWeight: 500 }}>Temp</span>
         </Typography>
 
-        {/* Center Section: Navigation Links */}
         <Box sx={{ 
           display: 'flex', 
-          flexDirection: { xs: 'column', sm: 'row' }, // Stack links vertically on small screens
-          gap: 0, // Add space between links
-          alignItems: { xs: 'center', sm: 'flex-start' }, // Align center on small screens, left on large screens
+          flexDirection: { xs: 'column', sm: 'row' },
+          gap: 0, 
+          alignItems: { xs: 'center', sm: 'flex-start' }, 
         }}>
           <Button
             component={Link}
@@ -91,21 +89,18 @@ export default function Header() {
           </Button>
         </Box>
 
-        {/* Right Section: Icons and Buttons */}
         <Box sx={{
           display: 'flex', 
-          flexDirection: { xs: 'column', sm: 'row' }, // Stack icons and buttons vertically on small screens
+          flexDirection: { xs: 'column', sm: 'row' }, 
           alignItems: 'center',
           gap: 2,
         }}>
-          {/* Icons */}
           <Box sx={{ display: 'flex', gap: 1 }}>
             <img src={cartIcon} alt="Cart Icon" style={{ width: '15px' }} />
             <img src={profileIcon} alt="Profile Icon" style={{ width: '15px' }} />
             <img src={searchIcon} alt="Search Icon" style={{ width: '15px' }} />
           </Box>
 
-          {/* Login and Sign Up Buttons */}
           <Box sx={{ display: 'flex', gap: 1 }}>
             <Button
               sx={{
@@ -121,6 +116,7 @@ export default function Header() {
                 backgroundColor: 'transparent',
                 color: 'white',
                 padding: '5px 20px',
+                textTransform: 'none',
                 borderRadius: '30px 0px 30px 0px',
                 border: '2px solid white',
                 '&:hover': {

@@ -1,15 +1,16 @@
 import React from 'react';
-import Header from './components/Header'; // Import the Header component
-import Hero from './components/Hero'; // Import the Header component
+import Header from './components/Header'; 
+import Hero from './components/Hero'; 
 import Partners from './components/Partners';
 import FeaturedCourses from './components/FeaturedCourses';
 import Categories from './components/Categories'; 
 import Testimonial from './components/Testimonial'; 
 import News from './components/News'; 
 import JoinUs from './components/JoinUs'; 
+import Footer from './components/Footer'; 
 
 
-import './index.css';  // Import global styles here
+import './index.css';  
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Testimonial/>
       <News/>
       <JoinUs/>
+      <Footer/>
       </div>
   );
 }

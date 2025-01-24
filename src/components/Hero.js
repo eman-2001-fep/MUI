@@ -6,7 +6,8 @@ export default function Hero() {
   return (
     <Box
       sx={{
-        position: 'relative', // Make sure the parent is relative for absolute positioning inside it
+        position: 'relative', 
+        fontFamily:'Montserrat',
         width: '90%',
         maxWidth: '1050px',
         height: '450px',
@@ -14,7 +15,7 @@ export default function Hero() {
         borderRadius: '0 0 100px 0',
         border: '2px dashed rgba(255, 255, 255, 0.6)',
         backgroundColor: '#1B143F',
-        overflow: 'visible', // Allow elements inside to overflow (e.g., rocket image)
+        overflow: 'visible', 
       }}
     >
       {/* Heading */}
@@ -28,11 +29,11 @@ export default function Hero() {
           transform: 'translateX(-50%)',
           backgroundColor: '#1B143F',
           padding: '0.5rem 1rem',
-          fontWeight: 'bold',
+          fontWeight: '700',
           zIndex: 10,
-          fontSize: { xs: '25px', md: '40px' },
+          fontSize: { xs: '25px', md: '35px' },
           textAlign: 'center',
-          width: '90%',
+          width: '70%',
         }}
       >
         Good coaching is good teaching
@@ -45,10 +46,10 @@ export default function Hero() {
           top: '8%',
           left: '50%',
           transform: 'translateX(-50%)',
-          fontSize: { xs: '14px', sm: '17px', lg: '18px' },
+          fontSize: 14,
+          fontWeight:800,
           textAlign: 'center',
           zIndex: 10,
-          fontWeight: 'bold',
           padding: { xs: '0 1rem', sm: '0 1.5rem' },
         }}
       >
@@ -73,8 +74,10 @@ export default function Hero() {
           sx={{
             backgroundColor: 'transparent',
             color: 'white',
-            padding: '10px 24px',
+            // width:'40px',
+            padding: '5px 24px',
             border: '2px solid white',
+            textTransform: 'none',
             borderRadius: '0px 30px 0px 30px',
             '&:hover': { backgroundColor: '#E2E2E2' },
           }}
@@ -85,8 +88,10 @@ export default function Hero() {
           sx={{
             backgroundColor: 'transparent',
             color: 'white',
-            padding: '10px 24px',
+            // width:'15px',
+            padding: '5px 24px',
             border: '2px solid white',
+            textTransform: 'none',
             borderRadius: '0px 30px 0px 30px',
             '&:hover': { backgroundColor: '#E2E2E2' },
           }}
